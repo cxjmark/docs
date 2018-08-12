@@ -2,7 +2,7 @@
 
 set -e
 
-yarn docs:build
+yarn build
 
 cd docs/.vuepress/dist
 
@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:FinlayChen/blog.git master:gh-pages
+git push -f git@github.com:cxjmark/vue-mark.git master:gh-pages
 
 cd -

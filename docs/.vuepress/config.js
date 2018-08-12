@@ -1,19 +1,20 @@
 module.exports = {
-    base: '/blog/',
-    title: '技术文档',
+    base: '/vue-mark/',
+    title: '陈小军',
     description: '陈小军的技术文档',
     serviceWorker: false,
     themeConfig: {
-        repo: 'FinlayChen/blog',
-        docsDir: 'blog',
-        editLinks: true,
-        editLinkText: '错别字纠正',
-        sidebarDepth: 3,
-        nav: [
+        repo: 'cxjmark/vue-mark',
+        docsDir: 'vue-mark'
+    },
+    sidebar:
+        [
             {
-                text: '正文',
-                link: '/art/'
-            }
+                title: '准备工作',
+                children: [
+                    'reg-exp/1start-learn'
+                ]
+            },
         ]
-    }
+
 };

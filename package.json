@@ -1,17 +1,17 @@
 {
-  "author": "FinlayChen <FinlayChen@126.com>",
+  "author": "Mark Chen <13528752486@163.com>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FinlayChen/docs.git"
+    "url": "git+https://github.com/cxjmark/vue-mark.git"
   },
   "keywords": [
     "vue",
     "docs"
   ],
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
     "deploy": "sh build/deploy.sh"
   },
   "devDependencies": {
