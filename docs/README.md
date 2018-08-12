@@ -1,2 +1,6 @@
-# 验证数字的正则表达式集
-
+---
+home: true
+heroImage: /hero.jpeg
+actionText: 开始阅读 
+actionLink: /regexp/
+---

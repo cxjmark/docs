@@ -1,20 +1,24 @@
 module.exports = {
     base: '/vue-mark/',
-    title: '陈小军',
-    description: '陈小军的技术文档',
+    title: 'vue-mark',
+    description: 'vue-mark 技术文档',
     serviceWorker: false,
     themeConfig: {
         repo: 'cxjmark/vue-mark',
-        docsDir: 'vue-mark'
-    },
-    sidebar:
-        [
+        docsDir: 'dcos',
+        sidebar: [
             {
-                title: '准备工作',
+                title: '正则',
+                collapsable: false,
                 children: [
-                    'reg-exp/1start-learn'
+                    'regexp/',
+                    'regexp/base'
                 ]
             },
+            {
+                title: '持续更新...',
+                collapsable: false
+            }
         ]
-
+    }
 };
