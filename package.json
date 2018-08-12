@@ -1,0 +1,20 @@
+{
+  "author": "FinlayChen <FinlayChen@126.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinlayChen/docs.git"
+  },
+  "keywords": [
+    "vue",
+    "docs"
+  ],
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "sh build/deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.1"
+  }
+}
