@@ -1,10 +1,10 @@
 module.exports = {
-    base: '/vue-mark/',
-    title: 'vue-mark',
-    description: 'vue-mark 技术文档',
+    base: '/mark-docs/',
+    title: 'mark-docs',
+    description: 'mark 技术文档',
     serviceWorker: false,
     themeConfig: {
-        repo: 'cxjmark/vue-mark',
+        repo: 'cxjmark/mark-docs',
         docsDir: 'dcos',
         sidebar: [
             {
