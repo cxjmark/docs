@@ -2,14 +2,7 @@ module.exports = {
   title: '图片裁剪',
   serviceWorker: {},
   themeConfig: {
-    repo: 'umijs/umi',
     docsDir: 'docs',
-    serviceWorker: {
-      updatePopup: {
-        message: 'New content is available.',
-        buttonText: 'Refresh'
-      }
-    },
     sidebar: {
       '/': [''],
       // '/api/': [''],
