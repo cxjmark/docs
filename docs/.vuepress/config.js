@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/docs',
   title: '图片裁剪',
   serviceWorker: {},
   themeConfig: {
