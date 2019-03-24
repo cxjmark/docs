@@ -1,24 +1,35 @@
 module.exports = {
-    base: '/mark-docs/',
-    title: 'mark-docs',
-    description: 'mark 技术文档',
-    serviceWorker: false,
-    themeConfig: {
-        repo: 'cxjmark/mark-docs',
-        docsDir: 'dcos',
-        sidebar: [
-            {
-                title: '正则',
-                collapsable: false,
-                children: [
-                    'regexp/',
-                    'regexp/base'
-                ]
-            },
-            {
-                title: '持续更新...',
-                collapsable: false
-            }
-        ]
+  title: '图片裁剪',
+  serviceWorker: {},
+  themeConfig: {
+    repo: 'umijs/umi',
+    docsDir: 'docs',
+    serviceWorker: {
+      updatePopup: {
+        message: 'New content is available.',
+        buttonText: 'Refresh'
+      }
+    },
+    sidebar: {
+      '/': [''],
+      // '/api/': [''],
+      // '/plugin/': [
+      //   {
+      //     title: 'Plugin',
+      //     collapsable: false,
+      //     children: ['']
+      //   },
+      //   {
+      //     title: 'Offcial Plugins',
+      //     collapsable: false,
+      //     children: ['umi-plugin-react']
+      //   },
+      //   {
+      //     title: 'Develop Plugin',
+      //     collapsable: false,
+      //     children: ['develop']
+      //   }
+      // ]
     }
-};
+  }
+}
